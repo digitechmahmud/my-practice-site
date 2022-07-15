@@ -11,22 +11,31 @@ body{
 .logo img{
    width: 15%;
    height: 75%;
+   margin-top: 10px;
+   margin-left: 20px;
 }
 
 nav ul{
     display: flex;
-    padding: 20px 30px;
+    align-items: center;
+    margin-top: 30px;
     
 
 }
 nav li{
     list-style: none;
     margin: 0 30px;
+    padding: 0 15px;
+    background-color: antiquewhite;
+    color: white;
+
 }
 nav li a{
     text-decoration: none;
 }
-nav li:hover{
-    background-color: coral;
-    padding: 0 10px;
+nav li:hover a{
+    color: white;
+}
+nav li:active a{
+    color: lightsalmon;
 }
