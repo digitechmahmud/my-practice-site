@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background-color: antiquewhite;
+}
+.flexable-content{
+    display: flex;
+}
+.logo img{
+   width: 15%;
+   height: 75%;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px 30px;
+    
+
+}
+nav li{
+    list-style: none;
+    margin: 0 30px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: coral;
+    padding: 0 10px;
+}
